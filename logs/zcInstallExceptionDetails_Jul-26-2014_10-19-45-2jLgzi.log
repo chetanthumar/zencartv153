@@ -1,0 +1,14 @@
+---------------
+Jul 26 2014 10:19 -- inspect
+CURL problems detected:  6 => Could not resolve host: www.zen-cart.com; Host not found, try again
+
+---------------
+Jul 26 2014 10:19 -- inspect
+CURL requires SSL support. Please notify webmaster or hosting company. 60 => SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+
+---------------
+Jul 26 2014 10:20 -- inspect
+CURL requires SSL support. Please notify webmaster or hosting company. 60 => SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+

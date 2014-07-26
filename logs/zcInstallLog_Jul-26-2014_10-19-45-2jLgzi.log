@@ -1,0 +1,85 @@
+---------------
+Jul 26 2014 10:19 -- inspect
+CURL problems detected:  6 => Could not resolve host: www.zen-cart.com; Host not found, try again
+
+---------------
+Jul 26 2014 10:19 -- inspect
+CURL requires SSL support. Please notify webmaster or hosting company. 60 => SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+
+---------------
+Jul 26 2014 10:19 -- inspect
+System Inspection Results: 
+------------------------------
+NA: Webserver => Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.10.1
+NA: HTTP Host => localhost
+NA: Path_Translated => D:/xampp/htdocs/zencartv153/zc_install/index.php(SCRIPT_FILENAME)
+NA: Real Path => D:\xampp\htdocs\zencartv153
+NA: PHP O/S => WINNT
+NA: PHP API Mode => apache2handler
+NA: PHP Max Execution Time per page => 60
+OK: Register Globals => OFF
+OK: MySQL Support => ON
+OK: PHP Version => 5.3.1
+OK: PHP Safe Mode => OFF
+OK: PHP Sessions Support => ON
+OK: PHP Session.AutoStart => OFF
+OK: PHP session.use_trans_sid => OFF
+OK: Suggested SQL Cache Folder => D:/xampp/htdocs/zencartv153/cache
+OK: PHP magic_quotes_runtime setting => OFF
+OK: PHP magic_quotes_sybase setting => OFF
+OK: PHP GD Support => ON
+OK: GD Version => GD bundled (2.0.34 compatible)
+OK: PHP ZLIB Compression Support => ON
+OK: PHP OpenSSL Support => ON
+OK: PHP cURL Support => ON
+WARN: CURL NON-SSL Capability => CURL problems detected:  6 => Could not resolve host: www.zen-cart.com; Host not found, try again
+WARN: CURL SSL Capability => CURL requires SSL support. Please notify webmaster or hosting company. 60 => SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+OK: PHP Upload Support => ON  upload_max_filesize=128M;  post_max_size=128M
+OK: PHP Upload TMP dir => D:\xampp\tmp
+OK: Apache .htaccess Support => ON
+NA: PHP include_path => .;D:\xampp\php\PEAR
+NA: PHP SMTP destination => localhost
+NA: PHP sendmail path => 
+NA: PHP sendmail 'from' => 
+OK: PHP open_basedir restrictions => 
+WARN: PHP Output Buffering (gzip) => OFF
+OK: PHP XML Support => ON
+OK: PHP Session.Save_Path => D:\xampp\htdocs\zencartv153\cache-->Writeable
+OK: includes/configure.php =>  Writeable
+OK: admin/includes/configure.php =>  Writeable
+OK: cache => OK 777 read/write/execute
+OK: images => OK 777 read/write/execute (INCLUDE SUBDIRECTORIES TOO)
+OK: includes/languages/english/html_includes => OK 777 read/write (INCLUDE SUBDIRECTORIES TOO)
+OK: logs => OK 777 read/write/execute
+OK: media => OK 777 read/write/execute
+OK: pub => OK 777 read/write/execute
+OK: admin/backups => OK 777 read/write
+OK: admin/images/graphs => OK 777 read/write/execute
+PHP Extensions compiled: Core, bcmath, calendar, com_dotnet, ctype, date, ereg, filter, ftp, hash, iconv, json, mysqlnd, odbc, openssl, pcre, Reflection, session, SPL, standard, tokenizer, zlib, libxml, dom, bz2, SimpleXML, wddx, xml, xmlreader, xmlwriter, xsl, apache2handler, Phar, curl, mbstring, exif, fileinfo, gd, gettext, imap, mcrypt, mysql, mysqli, PDO, pdo_mysql, PDO_ODBC, pdo_sqlite, soap, sockets, SQLite, sqlite3, xmlrpc, zip, ming, pdf, mhash
+------------------------------
+
+
+---------------
+Jul 26 2014 10:20 -- inspect
+CURL requires SSL support. Please notify webmaster or hosting company. 60 => SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+
+---------------
+Jul 26 2014 10:21 -- database_setup1
+Installer - Page: database_setup -- collected information: Array
+(
+    [language] => english
+    [DIR_FS_SQL_CACHE] => D:/xampp/htdocs/zencartv153/cache
+    [DB_TYPE] => mysql
+    [DB_PREFIX] => 
+    [DB_CHARSET] => utf8
+    [DB_SERVER] => localhost
+    [DB_SERVER_USERNAME] => root
+    [DB_SERVER_PASSWORD] => ***private***
+    [DB_DATABASE] => zencartv153
+    [SQL_CACHE_METHOD] => none
+)
+
+
